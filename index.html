@@ -1,79 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saneesh Morais | Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Saneesh Morais | AI Student Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gradient-to-br from-purple-50 via-blue-50 to-teal-50 text-gray-900">
 
-  <!-- Hero Section -->
-  <section class="text-center py-16 bg-white shadow">
-    <h1 class="text-4xl font-bold">Saneesh Morais</h1>
-    <p class="text-lg mt-2">AI & Data Enthusiast | Python | ML | NLP</p>
-    <p class="mt-4 text-gray-600 max-w-xl mx-auto">Passionate about building intelligent systems and data-driven solutions using AI, ML, and analytics.</p>
-  </section>
+<!-- Hero Section -->
+<section class="text-center py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg">
+  <h1 class="text-4xl md:text-5xl font-bold">Saneesh Morais</h1>
+  <p class="text-lg mt-3 font-semibold">🎓 BSc Computing with AI Technology Student | London</p>
+  <p class="mt-4 max-w-2xl mx-auto text-gray-200">
+    Passionate AI & Data Science student specializing in Machine Learning, NLP, and Data-Driven Solutions.  
+    Exploring how AI can create intelligent applications that solve real-world problems.
+  </p>
+</section>
 
-  <!-- About Section -->
-  <section class="py-12 px-4 md:px-16">
-    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-    <p>I’m a Computing with AI student based in London with hands-on experience in machine learning, NLP, and data analysis. I've worked on real-world projects during internships and personal work, and I’m always eager to learn and innovate in AI applications.</p>
-  </section>
+<!-- About Section -->
+<section class="py-16 px-6 md:px-20 bg-white">
+  <div class="flex items-center mb-6">
+    <i data-lucide="user" class="w-6 h-6 text-blue-700 mr-2"></i>
+    <h2 class="text-3xl font-semibold text-blue-700">About Me</h2>
+  </div>
+  <p class="leading-relaxed text-gray-700">
+    I am currently pursuing a <strong>BSc in Computing with AI Technology</strong> in London.  
+    My focus is on developing skills in machine learning, natural language processing, and data analysis.  
+    Through internships and personal projects, I’ve applied AI techniques to real-world problems, from resume analysis tools to job market intelligence dashboards.  
+    My goal is to become an AI professional driving innovation in industry.
+  </p>
+</section>
 
-  <!-- Projects Section -->
-  <section class="bg-gray-100 py-12 px-4 md:px-16">
-    <h2 class="text-2xl font-semibold mb-6">Projects</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="bg-white p-6 rounded-lg shadow">
-        <h3 class="text-xl font-bold">Job Market Intelligence Dashboard</h3>
-        <p class="mt-2 text-sm text-gray-700">Scraped 500+ London tech jobs to visualize in-demand skills, salary trends, and market gaps using Python and Streamlit.</p>
-      </div>
-      <div class="bg-white p-6 rounded-lg shadow">
-        <h3 class="text-xl font-bold">Casino Data Analysis Dashboard</h3>
-        <p class="mt-2 text-sm text-gray-700">Analyzed customer behavior and operational data using SQL and Python, uncovering key revenue trends for a casino environment.</p>
-      </div>
-      <div class="bg-white p-6 rounded-lg shadow">
-        <h3 class="text-xl font-bold">AI Resume Analyzer</h3>
-        <p class="mt-2 text-sm text-gray-700">Built an NLP tool to match resumes to job descriptions using TF-IDF and cosine similarity, streamlining hiring decisions.</p>
-      </div>
+<!-- Projects Section -->
+<section class="py-16 px-6 md:px-20 bg-gradient-to-r from-teal-100 via-blue-100 to-purple-100">
+  <div class="flex justify-center items-center mb-10">
+    <i data-lucide="brain" class="w-7 h-7 text-purple-700 mr-2"></i>
+    <h2 class="text-3xl font-semibold text-purple-700">Highlighted AI Projects</h2>
+  </div>
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500 hover:scale-105 transform transition">
+      <span class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">AI/ML</span>
+      <h3 class="text-xl font-bold mt-2 text-blue-700 flex items-center">
+        <i data-lucide="bar-chart-3" class="w-5 h-5 mr-2"></i> Job Market Intelligence Dashboard
+      </h3>
+      <p class="mt-2 text-sm text-gray-700">
+        Scraped 500+ London tech jobs to visualize in-demand skills, salary trends, and market gaps using Python and Streamlit.
+      </p>
     </div>
-  </section>
+    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-teal-500 hover:scale-105 transform transition">
+      <span class="text-xs bg-teal-100 text-teal-700 px-2 py-1 rounded">Data Analysis</span>
+      <h3 class="text-xl font-bold mt-2 text-teal-700 flex items-center">
+        <i data-lucide="database" class="w-5 h-5 mr-2"></i> Casino Data Analysis Dashboard
+      </h3>
+      <p class="mt-2 text-sm text-gray-700">
+        Analyzed customer behavior and operational data using SQL and Python, uncovering key revenue trends for a casino environment.
+      </p>
+    </div>
+    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500 hover:scale-105 transform transition">
+      <span class="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">NLP</span>
+      <h3 class="text-xl font-bold mt-2 text-purple-700 flex items-center">
+        <i data-lucide="file-text" class="w-5 h-5 mr-2"></i> AI Resume Analyzer
+      </h3>
+      <p class="mt-2 text-sm text-gray-700">
+        Built an NLP tool to match resumes to job descriptions using TF-IDF and cosine similarity, streamlining hiring decisions.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <!-- Skills Section -->
-  <section class="py-12 px-4 md:px-16">
-    <h2 class="text-2xl font-semibold mb-4">Skills</h2>
-    <ul class="list-disc list-inside grid grid-cols-2 gap-x-8">
-      <li>Python, SQL, JavaScript</li>
-      <li>TensorFlow, PyTorch, Scikit-learn</li>
-      <li>pandas, NumPy, Matplotlib</li>
-      <li>NLP: NLTK, TF-IDF, Cosine Similarity</li>
-      <li>Streamlit, Gradio, Jupyter Notebooks</li>
-      <li>Tableau, Power BI, Excel</li>
-      <li>Git, GitHub, AWS</li>
-      <li>Problem-solving, teamwork, innovation</li>
-    </ul>
-  </section>
+<!-- Skills Section -->
+<section class="py-16 px-6 md:px-20 bg-white">
+  <div class="flex items-center mb-8">
+    <i data-lucide="cpu" class="w-6 h-6 text-blue-700 mr-2"></i>
+    <h2 class="text-3xl font-semibold text-blue-700">Skills</h2>
+  </div>
+  <div class="grid md:grid-cols-2 gap-10">
+    <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl shadow">
+      <h3 class="text-xl font-bold mb-3 text-blue-600 flex items-center">
+        <i data-lucide="brain-circuit" class="w-5 h-5 mr-2"></i> AI & Machine Learning
+      </h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li>TensorFlow, PyTorch, Scikit-learn</li>
+        <li>NLP: NLTK, TF-IDF, Cosine Similarity</li>
+        <li>pandas, NumPy, Matplotlib</li>
+        <li>Data Preprocessing & Feature Engineering</li>
+      </ul>
+    </div>
+    <div class="bg-gradient-to-r from-teal-50 to-blue-50 p-6 rounded-xl shadow">
+      <h3 class="text-xl font-bold mb-3 text-teal-600 flex items-center">
+        <i data-lucide="code" class="w-5 h-5 mr-2"></i> Programming & Tools
+      </h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li>Python, SQL, JavaScript</li>
+        <li>Streamlit, Gradio, Jupyter Notebooks</li>
+        <li>Tableau, Power BI, Excel</li>
+        <li>Git, GitHub, AWS</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  <!-- Resume Section -->
-  <section class="bg-gray-100 py-12 px-4 md:px-16 text-center">
-    <h2 class="text-2xl font-semibold mb-4">Resume</h2>
-    <a href="CV_Saneesh.pdf" target="_blank" download class="inline-block px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-      Download CV
-    </a>
-  </section>
+<!-- Resume Section -->
+<section class="py-16 px-6 md:px-20 text-center bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+  <div class="flex justify-center items-center mb-6">
+    <i data-lucide="file-down" class="w-6 h-6 text-white mr-2"></i>
+    <h2 class="text-3xl font-semibold">Resume</h2>
+  </div>
+  <a href="CV_Saneesh.pdf" target="_blank" download 
+     class="inline-block px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition">
+    Download CV
+  </a>
+</section>
 
-  <!-- Contact Section -->
-  <section class="py-12 px-4 md:px-16 text-center">
-    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-    <p>Email: <a href="mailto:saneesh@example.com" class="text-blue-600">saneeshmorais@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/saneeshmorais" class="text-blue-600" target="_blank">linkedin.com/in/saneesh-morais-581458227/</a></p>
-    <p>GitHub: <a href="https://github.com/saneeshmorais" class="text-blue-600" target="_blank">github.com/saneeshmorais16</a></p>
-  </section>
+<!-- Contact Section -->
+<section class="py-16 px-6 md:px-20 text-center bg-white">
+  <div class="flex justify-center items-center mb-6">
+    <i data-lucide="send" class="w-6 h-6 text-blue-700 mr-2"></i>
+    <h2 class="text-3xl font-semibold text-blue-700">Contact</h2>
+  </div>
+  <p class="mb-2">📧 <a href="mailto:saneeshmorais@gmail.com" class="text-purple-600 hover:underline">saneeshmorais@gmail.com</a></p>
+  <p class="mb-2">🔗 <a href="https://linkedin.com/in/saneeshmorais" class="text-blue-600 hover:underline" target="_blank">LinkedIn</a></p>
+  <p>💻 <a href="https://github.com/saneeshmorais16" class="text-teal-600 hover:underline" target="_blank">GitHub</a></p>
+</section>
 
-  <footer class="text-center text-sm py-6 bg-white text-gray-500">
-    © 2025 Saneesh Morais. All rights reserved.
-  </footer>
+<!-- Footer -->
+<footer class="text-center text-sm py-6 bg-gradient-to-r from-blue-600 to-purple-600 text-gray-200">
+  © 2025 Saneesh Morais. All rights reserved.
+</footer>
+
+<script>
+  lucide.createIcons(); // render Lucide icons
+</script>
 
 </body>
 </html>
